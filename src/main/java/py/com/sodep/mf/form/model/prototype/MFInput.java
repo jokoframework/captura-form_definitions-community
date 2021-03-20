@@ -20,9 +20,9 @@ public class MFInput extends MFPrototype {
 
 	public enum Type {
 		TEXT("text"), DATE("date"), TIME("time"), DATETIME("datetime"), PASSWORD("password"), INTEGER("integer"), DECIMAL(
-				"decimal"), TEXTAREA("textarea");
+				"decimal"), TEXTAREA("textarea"), EMAIL("email"), EXTERNAL_LINK("external_link");
 
-		public static Type[] textualTypes = new Type[] { TEXT, TEXTAREA, PASSWORD };
+		public static Type[] textualTypes = new Type[] { TEXT, TEXTAREA, PASSWORD, EMAIL, EXTERNAL_LINK};
 		public static Type[] numericTypes = new Type[] { INTEGER, DECIMAL };
 		public static Type[] temporalTypes = new Type[] { DATE, TIME, DATETIME };
 
