@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>py.com.sodep.captura</groupId>
 	<artifactId>form-definition</artifactId>
-	<version>0.0.5</version>
+	<version>0.0.6</version>
 	<name>form_definition</name>
 	<description>Classes that make up the Object Model for forms</description>
 	<properties>
@@ -14,7 +14,7 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>${jackson.version}</version>
+			<version>2.9.10.8</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
